@@ -1,0 +1,101 @@
+.document-page-container {
+    width: 99vw;
+    height: 98vh;
+    background-color: var(--white-color);
+    position: relative;
+    overflow: hidden;
+    color: var(--white-color);
+}
+
+.document-page-container::after {
+    color: var(--white-color);
+    content: attr(data-attr);
+    display: block;
+    font-size: 10rem;
+    font-weight: 900;
+    font-family: comic sans MS;
+    line-height: 5;
+    position: absolute;
+    top: -20rem;
+    right: -5rem;
+    z-index: 10;
+    overflow: hidden;
+    letter-spacing: -1rem;
+}
+
+.wrapper {
+    width: 100%;
+    height: 100%;
+    border: 1px solid var(--primary-color);
+    border-top: none;
+    border-bottom: none;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    margin: auto;
+    background-color: var(--primary-color);
+}
+
+.wrapper:before {
+    content: '';
+    position: absolute;
+    width: 200%;
+    height: 100%;
+    border-radius: 100%;
+    border: 1px solid var(--primary-color);
+    left: -50%;
+    top: -93%;
+    z-index: 2;
+    background-color: white;
+}
+
+.wrapper:after {
+    content: '';
+    position: absolute;
+    width: 200%;
+    height: 100%;
+    border-radius: 100%;
+    border: 1px solid var(--white-color);
+    left: -50%;
+    top: 93%;
+    z-index: 2;
+    background-color: var(--white-color);
+}
+
+.img-section {}
+
+.development-section, .knowledge-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    max-width: 60vw;
+    margin: auto;
+    max-height: 50vh;
+}
+.development-img, .knowledge-img {
+    height: 20rem;
+    width: auto;
+    position: relative;
+    z-index: 3
+}
+.text-section{
+    padding: 2rem;
+}
+.develpment-heading{
+    font-size: var(--heading-font);
+    font-weight: var(--medium);
+}
+.development-content{
+    font-family: var(--secondary-font-family);
+    font-weight: var(--regular);
+    font-size: var(--normal-font);
+}
+.secondary-btn{
+max-width: 9rem;
+color: var(--white-color);
+background-color: var(--ternary-color);
+border-radius: 1rem;
+border: none;
+padding: 0.5rem;
+font-size: var(--normal-font);
+}

@@ -1,0 +1,41 @@
+@import '../../constants.css';
+
+.navbar-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 10vh;
+    width: 90vw;
+    margin: auto;
+    color: var(--primary-font-color);
+}
+
+.navlink-container, .links{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.link, a{
+    text-decoration: none;
+    list-style: none;
+    padding: 0.75rem;
+    color: var(--link-color);
+}
+
+.navbutton-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-button{
+    padding: 0.75rem;
+}
+
+.normal-btn{
+    background-color: var(--primary-color);
+    color: var(--white-color);
+    border: none;
+    border-radius: 0.25rem;
+}
