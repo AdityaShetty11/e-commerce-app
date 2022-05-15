@@ -1,6 +1,6 @@
 import React from "react";
-import developmentImg from '../../resources/development-img.svg';
-import knowCommunity from '../../resources/knowledge.svg';
+import developmentImg from '../../resources/svg/development-img.svg';
+import knowCommunity from '../../resources/svg/knowledge.svg';
 import './DocumentationPage.css';
 
 function DocumentationPage() {

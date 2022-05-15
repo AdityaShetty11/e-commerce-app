@@ -1,9 +1,8 @@
 import React from 'react';
 import './LandingPage.css';
-import shoe from '../../resources/shoe-img.png';
-import productImg from '../../resources/product-img.png';
-import happyFace from '../../resources/happy-face-img.png';
-import paymentImg from '../../resources/payment-img.png';
+import productImg from '../../resources/svg/product-img.svg';
+import happyFace from '../../resources/svg/happy-face-img.svg';
+import paymentImg from '../../resources/svg/payment-img.svg';
 
 function LandingPage() {
     return (
@@ -14,27 +13,27 @@ function LandingPage() {
                     Get started quickly and make your way.</p>
                 <div>
                     <button className='primary-btn'>Start a New Store</button>
-                  <span> or </span>  <a href='#' className='custom-link'> Customize &#38; Extend &#62;</a>
+                  <span> or </span>  <a href='#' className='custom-link customize-link'> Customize &#38; Extend &#62;</a>
                 </div>
             </div>
 
             <div className='image-section'>
                <div className='photo-container'>
-                   <div>
+                   {/* <div> */}
                        <img className='happy-face-img' src={happyFace}/>
-                   </div>
+                   {/* </div> */}
                    <div className='polka-pattern-1'></div>
                </div>
                <div className='product-container'>
                    <div className='polka-pattern-2'></div>
-                   <div>
+                   {/* <div> */}
                        <img className='product-img' src={productImg}/>
-                   </div>
+                   {/* </div> */}
                </div>
                <div className='payment-container'>
-                   <div>
+                   {/* <div> */}
                        <img className='payment-img' src={paymentImg}/>
-                   </div>
+                   {/* </div> */}
                    <div className='polka-pattern-3'></div>
                </div>
             </div>

@@ -1,8 +1,8 @@
 import React from "react";
 import './EcommercePage.css';
-import startPayment from '../../resources/start-payment.svg';
-import ecommerseCustomize from '../../resources/ecommerce-customize.svg';
-import activeCommunity from '../../resources/active-community.svg';
+import startPayment from '../../resources/svg/start-payment.svg';
+import ecommerseCustomize from '../../resources/svg/ecommerce-customize.svg';
+import activeCommunity from '../../resources/svg/active-community.svg';
 
 function EcommercePage() {
     return (
